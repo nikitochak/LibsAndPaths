@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74" started-at="2014-06-20T17:58:59Z" finished-at="2014-06-20T17:59:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74" started-at="2014-06-20T17:58:59Z" finished-at="2014-06-20T17:59:00Z">
+      <class name="test.MethodsArrayTest">
+        <test-method status="PASS" signature="TestGetSumOfArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestGetSumOfArray" duration-ms="30" started-at="2014-06-20T20:58:59Z" finished-at="2014-06-20T20:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetSumOfArray -->
+        <test-method status="PASS" signature="TestgetMinElementOfArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestgetMinElementOfArray" duration-ms="1" started-at="2014-06-20T20:58:59Z" finished-at="2014-06-20T20:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestgetMinElementOfArray -->
+        <test-method status="PASS" signature="TestrpintArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestrpintArray" duration-ms="2" started-at="2014-06-20T20:59:00Z" finished-at="2014-06-20T20:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestrpintArray -->
+      </class> <!-- test.MethodsArrayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

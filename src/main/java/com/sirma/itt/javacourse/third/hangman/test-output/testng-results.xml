@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="186" started-at="2014-06-20T17:32:33Z" finished-at="2014-06-20T17:32:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="186" started-at="2014-06-20T17:32:33Z" finished-at="2014-06-20T17:32:33Z">
+      <class name="test.HangmamTest">
+        <test-method status="PASS" signature="TestWordGen()[pri:0, instance:test.HangmamTest@11d2887]" name="TestWordGen" duration-ms="115" started-at="2014-06-20T20:32:33Z" finished-at="2014-06-20T20:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWordGen -->
+      </class> <!-- test.HangmamTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
