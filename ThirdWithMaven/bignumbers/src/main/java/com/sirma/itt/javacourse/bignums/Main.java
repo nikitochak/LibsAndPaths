@@ -63,13 +63,17 @@ public class Main {
 				if (value >= 10) {
 					isAbove10 = true;
 					value = value % 10;
-				}else{isAbove10=false;}
+				} else {
+					isAbove10 = false;
+				}
 			} else if (j < 0) {
 				value = value + (int) (first[i] - '0');
 				if (value >= 10) {
 					isAbove10 = true;
 					value = value % 10;
-				}else{isAbove10=false;}
+				} else {
+					isAbove10 = false;
+				}
 			} else {
 				value = value + (int) (first[i] - '0')
 						+ (int) (second[j] - '0');

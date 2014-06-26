@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74" started-at="2014-06-20T17:58:59Z" finished-at="2014-06-20T17:59:00Z">
+  <suite name="Default suite" duration-ms="75" started-at="2014-06-26T17:27:01Z" finished-at="2014-06-26T17:27:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="74" started-at="2014-06-20T17:58:59Z" finished-at="2014-06-20T17:59:00Z">
-      <class name="test.MethodsArrayTest">
-        <test-method status="PASS" signature="TestGetSumOfArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestGetSumOfArray" duration-ms="30" started-at="2014-06-20T20:58:59Z" finished-at="2014-06-20T20:58:59Z">
+    <test name="Default test" duration-ms="75" started-at="2014-06-26T17:27:01Z" finished-at="2014-06-26T17:27:02Z">
+      <class name="com.sirma.itt.javacourse.methodsarray.MethodsArrayTest">
+        <test-method status="PASS" signature="TestGetSumOfArray()[pri:0, instance:com.sirma.itt.javacourse.methodsarray.MethodsArrayTest@133adc]" name="TestGetSumOfArray" duration-ms="33" started-at="2014-06-26T20:27:01Z" finished-at="2014-06-26T20:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGetSumOfArray -->
-        <test-method status="PASS" signature="TestgetMinElementOfArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestgetMinElementOfArray" duration-ms="1" started-at="2014-06-20T20:58:59Z" finished-at="2014-06-20T20:58:59Z">
+        <test-method status="PASS" signature="TestgetMinElementOfArray()[pri:0, instance:com.sirma.itt.javacourse.methodsarray.MethodsArrayTest@133adc]" name="TestgetMinElementOfArray" duration-ms="2" started-at="2014-06-26T20:27:01Z" finished-at="2014-06-26T20:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestgetMinElementOfArray -->
-        <test-method status="PASS" signature="TestrpintArray()[pri:0, instance:test.MethodsArrayTest@133adc]" name="TestrpintArray" duration-ms="2" started-at="2014-06-20T20:59:00Z" finished-at="2014-06-20T20:59:00Z">
+        <test-method status="PASS" signature="TestrpintArray()[pri:0, instance:com.sirma.itt.javacourse.methodsarray.MethodsArrayTest@133adc]" name="TestrpintArray" duration-ms="3" started-at="2014-06-26T20:27:01Z" finished-at="2014-06-26T20:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestrpintArray -->
-      </class> <!-- test.MethodsArrayTest -->
+      </class> <!-- com.sirma.itt.javacourse.methodsarray.MethodsArrayTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
