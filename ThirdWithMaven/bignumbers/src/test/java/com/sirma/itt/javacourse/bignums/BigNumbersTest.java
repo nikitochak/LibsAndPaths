@@ -2,6 +2,7 @@ package com.sirma.itt.javacourse.bignums;
 
 import org.testng.annotations.Test;
 
+
 import com.sirma.itt.javacourse.bignums.Main;
 
 /**
@@ -16,7 +17,7 @@ public class BigNumbersTest {
 	 * numbers.
 	 */
 	@Test
-	public void TestSumBigNumbers() {
+	public void sestSumBigNumbers() {
 		Main.main(null);
 
 	}

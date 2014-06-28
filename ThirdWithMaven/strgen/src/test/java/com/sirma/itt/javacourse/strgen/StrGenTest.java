@@ -15,7 +15,7 @@ public class StrGenTest {
 	 * Test the method for generating a string.
 	 */
 	@Test
-	public void TestStrGen() {
+	public void testStrGen() {
 
 		Main.main(null);
 

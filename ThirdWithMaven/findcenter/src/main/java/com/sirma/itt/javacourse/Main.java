@@ -15,7 +15,7 @@ public class Main {
 	 * smallest there is the center.
 	 * 
 	 * @param args
-	 * @return the center of the weight in the Array
+	 * 
 	 */
 	public static void main(String[] args) {
 		// declares the Array
