@@ -67,8 +67,8 @@ public class Help {
 	 *            character is consisted in the word
 	 * @return @param guss
 	 */
-	static boolean isThere(char[] word, boolean[] wordGuess, char in, int size,
-			boolean guss) {
+	public static boolean isThere(char[] word, boolean[] wordGuess, char in,
+			int size, boolean guss) {
 
 		for (int i = 0; i < size; i++) {
 			if (word[i] == in) {
@@ -89,7 +89,7 @@ public class Help {
 	 * @param size
 	 *            the size of the array
 	 */
-	static void printWord(char[] word, boolean[] wordGuess, int size) {
+	public static void printWord(char[] word, boolean[] wordGuess, int size) {
 		for (int i = 0; i < size; i++) {
 			if (wordGuess[i] == true) {
 				System.out.print(word[i] + " ");

@@ -1,12 +1,10 @@
 package com.sirma.itt.javacourse.methodsarray;
 
+import static org.testng.AssertJUnit.assertEquals;
 import org.testng.annotations.Test;
-import org.testng.Assert;
-
-import com.sirma.itt.javacourse.methodsarray.Help;
 
 /**
- * Tests some methods for arrays.
+ * Tests some methods involved with arrays.
  * 
  * @author Nikolay Ch
  * 
@@ -14,32 +12,21 @@ import com.sirma.itt.javacourse.methodsarray.Help;
 public class MethodsArrayTest {
 
 	/**
-	 * Tests the method for finding the minimum element of an array.
+	 * Tests the methods for finding the minimum element of an array.
 	 */
 	@Test
-	public void testGetMinElementOfArray() {
-		Help meth = new Help();
-		for (int i = 0; i < 10; i++) {
-			meth.Array[i] = i;
-		}
-		if (meth.getMinElement(meth.Array) != 0) {
-			Assert.fail("Nope");
-		}
-		;
+	public void testGetMin() {
+		int[] array2 = { -245, 3245, 4, 435, 234, -54 };
+		assertEquals(-245, Help.getMinElement(array2));
 	}
 
 	/**
-	 * Test the method for finding the sum of an array.
+	 * Tests the method for summing the elements of an array.
 	 */
 	@Test
-	public void testGetSumOfArray() {
-		Help meth = new Help();
-		for (int i = 0; i < 10; i++) {
-			meth.Array[i] = i;
-		}
-		if (meth.getSum(meth.Array) != 45) {
-			Assert.fail("nope");
-		}
+	public void testGetSum() {
+		int[] array = { 1, 1, 1, 1, 1, 1, 1 };
+		assertEquals(Help.getSum(array), 7);
 	}
 
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97" started-at="2014-06-26T17:22:33Z" finished-at="2014-06-26T17:22:34Z">
+  <suite name="Default suite" duration-ms="165" started-at="2014-06-30T16:10:30Z" finished-at="2014-06-30T16:10:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="97" started-at="2014-06-26T17:22:33Z" finished-at="2014-06-26T17:22:34Z">
-      <class name="com.sirma.itt.javacourse.ArrayReversTest">
-        <test-method status="PASS" signature="TestMainReverse()[pri:0, instance:com.sirma.itt.javacourse.ArrayReversTest@1fcd12c]" name="TestMainReverse" duration-ms="36" started-at="2014-06-26T20:22:34Z" finished-at="2014-06-26T20:22:34Z">
+    <test name="Default test" duration-ms="165" started-at="2014-06-30T16:10:30Z" finished-at="2014-06-30T16:10:30Z">
+      <class name="com.sirma.itt.javacourse.ArrayRevTest">
+        <test-method status="PASS" signature="testReverse()[pri:0, instance:com.sirma.itt.javacourse.ArrayRevTest@133adc]" name="testReverse" duration-ms="53" started-at="2014-06-30T19:10:30Z" finished-at="2014-06-30T19:10:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMainReverse -->
-      </class> <!-- com.sirma.itt.javacourse.ArrayReversTest -->
+        </test-method> <!-- testReverse -->
+      </class> <!-- com.sirma.itt.javacourse.ArrayRevTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
